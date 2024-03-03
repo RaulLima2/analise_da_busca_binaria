@@ -1,6 +1,6 @@
 import numpy as np
 
-def busca_binaria(chave:int, esquerda:int, direita:int)->int:
+def busca_binaria(chave:int, esquerda:int, direita:int, vetor:np.ndarray)->int:
     meio:int = int((esquerda + direita)//2)
 
     if direita >= esquerda:
