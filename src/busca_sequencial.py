@@ -4,4 +4,4 @@ def busca_sequencial(chave:int, vetor:np.ndarray)->int:
 	for index, item in enumerate(vetor):
 		if item == chave:
 			return index
-	return 0
+	return -1
