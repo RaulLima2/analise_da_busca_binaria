@@ -1,10 +1,10 @@
 import unittest
-from ..src import busca_sequencial
+from search.busca_sequencial import busca_sequencial
 
 class TestBuscaSequencial(unittest.TestCase):
 
     def test_busca_sequencial(self):
-        lista = [1, 2, 3, 4, 5]
+        lista: list[int] = [1, 2, 3, 4, 5]
         self.assertEqual(busca_sequencial(lista, 3), 2)
 
     def test_elemento_nao_encontrado(self):

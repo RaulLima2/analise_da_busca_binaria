@@ -1,6 +1,6 @@
 
 import unittest
-from ..src import busca_binaria
+from search.busca_binaria import busca_binaria
 
 class TestBinarySearch(unittest.TestCase):
 
@@ -23,3 +23,6 @@ class TestBinarySearch(unittest.TestCase):
     def test_lista_vazia(self):
         arr = []
         self.assertEqual(busca_binaria(arr, 5), -1)
+
+if __name__ == '__main__':
+    unittest.main()

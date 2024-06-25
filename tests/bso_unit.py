@@ -1,5 +1,5 @@
 import unittest
-from ..src import busca_sequencial_otimizada
+from search.busca_sequencial_otimizada import busca_sequencial_otimizada
 
 class TestBuscaSequencialOtimizada(unittest.TestCase):
     
