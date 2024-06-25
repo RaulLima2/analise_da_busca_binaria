@@ -34,7 +34,7 @@ jobs:
         python test/bs_unit.py
     - name: Test Unit Linear Search Otimized
       run: |
-        python ./test/bso_unit.py
+        python test/bso_unit.py
     - name: Test Unit Binary Search
       run: |
         python test/bb_unit.py
